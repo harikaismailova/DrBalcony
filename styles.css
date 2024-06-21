@@ -162,11 +162,17 @@ a {
 }
 
 .content-area2 {
-  background-color: #ffff;
-  margin: 15px;
-  border-radius: 10px;
+  background-color: white;
   padding: 20px;
-  height: 100%;
+  border: 1px solid #e2e2e2;
+  margin: 20px;
+  margin-bottom: 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-grow: 1;
 }
 
 /*Upload photo images*/
@@ -231,9 +237,15 @@ a {
 }
 
 footer {
+  background-color: white;
+  padding: 10px 20px;
   border-top: 1px solid #e2e2e2;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin-top: auto;
 }
 
 footer a {
